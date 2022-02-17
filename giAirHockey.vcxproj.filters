@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7357a1e3-3d55-4160-ad08-5a5a08b56630}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{26ec94c2-0f64-4feb-8ad0-79298b40a61b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{71d3ea91-df35-4487-a3d1-be3385cd78df}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AirHockeyGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Y-G AirHockey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirHockeyGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bluePaddle.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gilogo2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="hockeyboard.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="hockeyboardMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddle.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paddleMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="puck.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="puckMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="redPaddle.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shipMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Y-Games.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="logo2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="giAirHockey.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
